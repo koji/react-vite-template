@@ -3,8 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "react app template with typescript and vite",
-  "author": "koji kanao",
+  "description": "react app template with typescript, vite and vitest",
+  "author": "koji kanao <kojikoji@skiff.com> (https://koji.dev.id)",
+  "keywords": [
+    "react",
+    "typescript",
+    "template",
+    "frontend",
+    "vite",
+    "vitest",
+    "eslint"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
