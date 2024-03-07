@@ -21,10 +21,10 @@
     "test": "vitest run --coverage",
     "lint": "run-p lint:*",
     "lint:tsc": "tsc --noEmit",
-    "lint:prettier": "prettier . --check",
+    "lint:format": "prettier . --check",
     "lint:eslint": "eslint . --ext .ts,.tsx",
     "fix": "run-s fix:*",
-    "fix:prettier": "prettier . --write",
+    "fix:format": "prettier . --write",
     "fix:eslint": "eslint . --ext .ts,.tsx --fix"
   },
   "packageManager": "pnpm@8.15.4",
